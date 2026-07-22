@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "ytdl-core": "npm:ytdl-core@4.11.5"
+  },
+  "tasks": {
+    "start": "deno run --allow-net main.js"
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false
+  }
+}
